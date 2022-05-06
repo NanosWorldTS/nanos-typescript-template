@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": ["esnext"],
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "baseUrl": "./src",
+        "types": [
+            "nanos-world-types",
+            "typescript-to-lua/language-extensions"
+        ],
+        "strict": true
+    },
+    "tstl": {
+        "luaTarget": "JIT"
+    },
+    "include":[
+        "src/**/*"
+    ]
+}

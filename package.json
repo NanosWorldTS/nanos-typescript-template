@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "tstl && shx cp Package.toml dist/Package.toml"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nanos-world-types": "^170.1.2",
+    "shx": "^0.3.4",
+    "typescript": "^4.6.4",
+    "typescript-to-lua": "^1.4.4"
+  }
+}
