@@ -12,7 +12,8 @@
         "strict": true
     },
     "tstl": {
-        "luaTarget": "JIT"
+        "luaTarget": "universal",
+        "luaLibImport": "inline"
     },
     "include":[
         "src/**/*"
