@@ -13,7 +13,10 @@
     },
     "tstl": {
         "luaTarget": "universal",
-        "luaLibImport": "inline"
+        "luaLibImport": "inline",
+        "luaPlugins": [
+            {"name": "./transpilers/imports.ts"}
+        ]
     },
     "include":[
         "src/**/*"
