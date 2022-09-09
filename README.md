@@ -1,5 +1,6 @@
 # nanos-typescript-template
 > The declarations are deprecated. Use the [nanosts CLI](https://github.com/NanosWorldTS/nanos-typescript-cli) instead!
+
 This is a template which can be used to create packages for nanos world with TypeScript using my declarations.
 
 ## How to use
